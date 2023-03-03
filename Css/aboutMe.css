@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+header {
+    padding-top: 400px;
+    background-image: url(/Img/banner.png);
+}
+
+p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+
+a {
+    color: #e50914;
+}
+
+.navigation_bar {
+    background-color: black;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation_bar a {
+    text-decoration: none;
+    margin: 15px 0px 0px 0px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navigation_bar a:hover {
+    text-decoration: underline;
+}
+
+.Image {
+    margin: 0px 0px 40px 200px;
+    border-radius: 20px;
+}
+
+.socialMedia {
+    margin: 0px 200px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+    padding: 30px 20px 30px 30px;
+}
+
+.aboutMe {
+    margin: 0px 200px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+    padding: 30px 20px 30px 30px;
+}
+
+.content {
+    max-width: 700px;
+    padding: 0px 20px 0px 20px;
+}
+
+#Gmail {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: black;
+    padding: 100px 0px 50px 0px;
+    margin: 80px 0px 0px 0px;
+    color: white;
+}
+
+footer p {
+    font-size: 15px;
+    margin-left: 50px;
+}

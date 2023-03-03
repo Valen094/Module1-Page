@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/Css/contact.css">
+    <title>CONTACT</title>
+</head>
+
+<body>
+    <header>
+        <div class="navigation_bar">
+
+            <img src="/Img/Netflix.png" alt="" width="200" height="50">
+            <a href="/index.html">INICIO</a>
+            <a href="/html/history.html">HISTORY</a>
+            <a href="/html/contact.html">CONTACT</a>
+            <a href="/html/aboutMe.html">MY PROFILE</a>
+
+        </div>
+    </header>
+
+    <h1>Contact Page</h1>
+
+
+    <div class="form">
+        <div class="content">
+            <form action="#" method="post">
+                <div class="inputandlabel">
+                    <label for="user">Name</label>
+                    <input type="text" name="user" id="username" required pattern="[a-zA-Z ]+">
+
+                    <label for="phonenumber">Phone number</label>
+                    <input type="number" name="phonenumber" id="phone" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="Email" required>
+
+                    <label for="country">Country</label>
+                    <input type="text" list="countrylist" id="country" name="country">
+                    <datalist id="countrylist">
+                        <option value="Colombia"></option>
+                        <option value="Mexico"></option>
+                        <option value="Chile"></option>
+                        <option value="Peru"></option>
+                        <option value="Bolivia"></option>
+                        <option value="Argentina"></option>
+                        <option value="España"></option>
+                    </datalist>
+
+                    <label for="city">City</label>
+                    <input type="text" list="citylist" id="city" name="city">
+                    <datalist id="citylist">
+                        <option value="Lima"></option>
+                        <option value="Buenos Aires"></option>
+                        <option value="Bogotá"></option>
+                        <option value="Madrid"></option>
+                        <option value="La Paz"></option>
+                        <option value="Santiago"></option>
+                        <option value="Ciudad de Mexico"></option>
+                    </datalist>
+
+                    <h3>Why are you contacting us?</h3>
+
+                    <label class="label" for="password"><input class="block" type="checkbox" name="topping" id="block"
+                            value="password">Update Password</label>
+
+                    <label class="label" for="email"><input class="block" type="checkbox" name="topping" id="block"
+                            value="email">Update Email</label>
+
+                    <label class="label" for="account"><input class="block" type="checkbox" name="topping" id="block"
+                            value="account">Cancel Account</label>
+
+                    <label class="label" for="payments"><input class="block" type="checkbox" name="topping" id="block"
+                            value="payment">Billing and Payments</label>
+
+                    <label for="blog">Observations</label>
+                    <textarea name="blog" id="blog" cols="3" rows="2"></textarea>
+                    <div class="submit">
+                        <input type="submit" value="Send" id="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>VALENTINA RAMIREZ SARMIENTO &copy; February 28, 2023</p>
+    </footer>
+</body>
+
+</html>
